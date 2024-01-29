@@ -1,17 +1,24 @@
 //
-//  StudySyncApp.swift
-//  StudySync
+//  Study_SyncApp.swift
+//  Study_Sync
 //
-//  Created by Connie Ly on 1/28/24.
+//  Created by Connie Ly on 1/8/24.
 //
 
 import SwiftUI
 
 @main
-struct StudySyncApp: App {
+struct Study_SyncApp: App {
+    var meetingData = MeetingData()
+    var navigationController = NavigationController()
+
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(meetingData)
+            .environmentObject(navigationController)
+            .environmentObject(MeetingData())
         }
     }
 }

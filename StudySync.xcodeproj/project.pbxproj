@@ -11,6 +11,14 @@
 		FB4AD1AB2B67855E0016C97E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AD1AA2B67855E0016C97E /* ContentView.swift */; };
 		FB4AD1AD2B6785610016C97E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4AD1AC2B6785610016C97E /* Assets.xcassets */; };
 		FB4AD1B02B6785610016C97E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4AD1AF2B6785610016C97E /* Preview Assets.xcassets */; };
+		FB4AD1B72B6786710016C97E /* HostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AD1B62B6786710016C97E /* HostingView.swift */; };
+		FB4AD1B92B6786820016C97E /* ManageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AD1B82B6786820016C97E /* ManageView.swift */; };
+		FB4AD1BB2B6786970016C97E /* MeetingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AD1BA2B6786970016C97E /* MeetingData.swift */; };
+		FB4AD1BD2B6786A90016C97E /* StudyGroupInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AD1BC2B6786A90016C97E /* StudyGroupInfo.swift */; };
+		FB4AD1BF2B6786BA0016C97E /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AD1BE2B6786BA0016C97E /* NavigationController.swift */; };
+		FB4AD1C12B6786CA0016C97E /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AD1C02B6786CA0016C97E /* SummaryView.swift */; };
+		FB4AD1C32B6786DE0016C97E /* MeetingDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AD1C22B6786DE0016C97E /* MeetingDescription.swift */; };
+		FB4AD1C52B6786EE0016C97E /* JoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AD1C42B6786EE0016C97E /* JoinView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		FB4AD1AA2B67855E0016C97E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB4AD1AC2B6785610016C97E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB4AD1AF2B6785610016C97E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB4AD1B62B6786710016C97E /* HostingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingView.swift; sourceTree = "<group>"; };
+		FB4AD1B82B6786820016C97E /* ManageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageView.swift; sourceTree = "<group>"; };
+		FB4AD1BA2B6786970016C97E /* MeetingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingData.swift; sourceTree = "<group>"; };
+		FB4AD1BC2B6786A90016C97E /* StudyGroupInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyGroupInfo.swift; sourceTree = "<group>"; };
+		FB4AD1BE2B6786BA0016C97E /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		FB4AD1C02B6786CA0016C97E /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		FB4AD1C22B6786DE0016C97E /* MeetingDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingDescription.swift; sourceTree = "<group>"; };
+		FB4AD1C42B6786EE0016C97E /* JoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,14 @@
 			children = (
 				FB4AD1A82B67855E0016C97E /* StudySyncApp.swift */,
 				FB4AD1AA2B67855E0016C97E /* ContentView.swift */,
+				FB4AD1B62B6786710016C97E /* HostingView.swift */,
+				FB4AD1B82B6786820016C97E /* ManageView.swift */,
+				FB4AD1BA2B6786970016C97E /* MeetingData.swift */,
+				FB4AD1BC2B6786A90016C97E /* StudyGroupInfo.swift */,
+				FB4AD1BE2B6786BA0016C97E /* NavigationController.swift */,
+				FB4AD1C02B6786CA0016C97E /* SummaryView.swift */,
+				FB4AD1C22B6786DE0016C97E /* MeetingDescription.swift */,
+				FB4AD1C42B6786EE0016C97E /* JoinView.swift */,
 				FB4AD1AC2B6785610016C97E /* Assets.xcassets */,
 				FB4AD1AE2B6785610016C97E /* Preview Content */,
 			);
@@ -138,7 +162,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB4AD1AB2B67855E0016C97E /* ContentView.swift in Sources */,
+				FB4AD1B72B6786710016C97E /* HostingView.swift in Sources */,
 				FB4AD1A92B67855E0016C97E /* StudySyncApp.swift in Sources */,
+				FB4AD1BD2B6786A90016C97E /* StudyGroupInfo.swift in Sources */,
+				FB4AD1BB2B6786970016C97E /* MeetingData.swift in Sources */,
+				FB4AD1C32B6786DE0016C97E /* MeetingDescription.swift in Sources */,
+				FB4AD1C12B6786CA0016C97E /* SummaryView.swift in Sources */,
+				FB4AD1BF2B6786BA0016C97E /* NavigationController.swift in Sources */,
+				FB4AD1C52B6786EE0016C97E /* JoinView.swift in Sources */,
+				FB4AD1B92B6786820016C97E /* ManageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
