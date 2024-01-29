@@ -60,6 +60,21 @@ class MeetingData: ObservableObject {
                 participants: "20",
                 meetingDescription: "History Exam Review"
             ),
+            StudyGroupInfo(
+                id: UUID(),
+
+                hostName: "Connie",
+                hostLastname: "Ly",
+                className: "English",
+                isSectionSelected: true,
+                isOpenToAllSelected: false,
+                sectionText: "2",
+                date: "01-18-2024",
+                location: "MLK Library",
+                startTime: "12:00 PM",
+                endTime: "1:00 PM",
+                participants: "1",
+                meetingDescription: "Essay Peer Review"),
             
         ]
 
